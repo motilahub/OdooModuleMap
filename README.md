@@ -1,6 +1,8 @@
 # OdooModuleMap
 
-OdooModuleMap 是一个用于生成 Odoo 模块依赖图谱的小工具。它会扫描 Odoo addon 目录中的 `__manifest__.py` / `__openerp__.py`，解析 manifest 里的 `depends`，并生成可交互的 Cytoscape HTML 图谱、Mermaid 图谱和统计摘要。
+OdooModuleMap 是一个用于生成 Odoo 模块依赖图谱的小工具。
+
+它会扫描 Odoo addon 目录中的 `__manifest__.py` / `__openerp__.py`，解析 manifest 里的 `depends`，并生成可交互的 Cytoscape HTML 图谱、Mermaid 图谱和统计摘要。
 
 当前分析范围只包含 manifest `depends` 依赖，不包含 Python 模型继承、代理继承和 XML 视图继承。
 
