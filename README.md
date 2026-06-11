@@ -43,8 +43,7 @@ OdooModuleMap/
 ```
 
 ## Quick Start
-
-在 `OdooModuleMap` 所在项目根目录执行：
+将 `OdooModuleMap` 放在Odoo项目的根目录中，并在`OdooModuleMap` 所在项目根目录执行：
 
 ```bash
 python3 OdooModuleMap/main.py
