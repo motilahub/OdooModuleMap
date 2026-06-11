@@ -1,0 +1,7 @@
+{
+  "source_roots": {
+    "code": "code",
+    "data": "data",
+    "third_component": "third_component"
+  }
+}
